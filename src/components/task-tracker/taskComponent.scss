@@ -1,0 +1,18 @@
+.task-tracker-box { 
+  border: 0.3px solid;
+  padding: 1.5em;
+  
+  .task-header{
+    display: inline-block;
+    font-weight: 550
+  }
+}
+
+.task-tracker-box > *{
+  margin-bottom: 20px;
+}
+.task-button{
+  float: right;
+  margin: auto;
+  display: inline-block;
+}

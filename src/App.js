@@ -1,10 +1,10 @@
 import "./styles.css";
+import TaskComponent from "./components/task-tracker/taskComponent.js";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello Surabhi</h1>
-      <h2>Shubham editing to see some magic happen!</h2>
+      <TaskComponent />
     </div>
   );
 }
